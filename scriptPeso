@@ -1,0 +1,7 @@
+   var pesoEmQuilos = document.getElementById("peso");
+    var seuPeso = document.getElementById("valor");
+        seuPeso.innerHTML = pesoEmQuilos.value;
+
+        pesoEmQuilos.oninput = function() {
+        seuPeso.innerHTML = this.value;
+    }

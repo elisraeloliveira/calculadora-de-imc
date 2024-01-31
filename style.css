@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #a22cf0;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%) repeat;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+#boxForm{
+    padding: 5px;
+    font-family: 'Poiret One', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #9599e279;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    width: 400px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+}
+p{
+    font-size: 30px;
+
+}
+
+#form{
+    border-radius: 5px;
+    background-color: #9599e2ab;
+    width: 50%;
+    height: 200px;
+    margin: 7px;
+    font-size: 20px;
+    padding-right: 5px;
+}
+input{
+    background-color: #21215aa1;
+    color: rgb(10, 10, 10);
+}
+#peso, #altura{
+    color: rgb(241, 238, 238);
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50px;
+    text-align: justify;
+    border-style: hidden;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+#botao{
+    background-color: #9599E2;
+    border: #d5eeee;
+    margin-top: 10px;
+    height: 30px;
+    padding: 0 5px 0 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.445);
+
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#botao:hover{
+    color: rgb(10, 10, 10);
+    background-color: #9599E2;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.445);
+}
+
+h3{ 
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    display: flex;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+    text-align: center;
+    
+    background-color: #e2959b9f;
+    
+}
+
+li{
+    font-size: 15px;
+    ruby-align: center;
+    list-style: none;
+}
+
+ul{
+    font-size: 10px;
+    text-align: center;
+}
+

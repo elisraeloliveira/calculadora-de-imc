@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="boxForm">
+    <h1>Saiba qual é o seu IMC:</h1>
+        <form id="form">
+            <div><p>Digite:</p><br>
+                <label for="pesoAdd">Peso(em kg):</label><br>
+                <input type="range" min="20" max="200" value="100" step="01" class="pesoEmQuilos" id="peso">
+                <span id="valor"></span>
+            </div>  
+            <div>   
+                <label for="altura">Altura <br> (em metros):</label><br>
+                <input type="range" min="0.50" max="2.500" value="1.500" step="0.01" class="alturaEmMetros" id="altura">
+                <span id="metros"></span>
+            </div>
+            <input type="submit" value="Calcular IMC" id="botao"></script>
+        </form>
+    </div>
+    <h3>Resultado</h3>
+    <p id="info">
+        <li ><b>Classificação de IMC </b>
+            <ul>Menor que 18,5	Baixo peso</ul>
+            <ul>De 18,5 a 24,9	Peso normal</ul>
+            <ul>De 25 a 29,9	Sobrepeso</ul>
+            <ul>De 30 a 34,9	Obesidade grau I</ul>
+            <ul>De 35 a 39.9	Obesidade grau II</ul>
+            <ul>Igual ou maior que 40	Obesidade grau III</ul>
+        </li>
+    </p>
+    <script src="scriptPeso"></script>
+    <script src="scriptAltura.js"></script>
+   <script src="script.js"></script> 
+</body>
+</html>
